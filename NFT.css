@@ -1,0 +1,110 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@520&display=swap');@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.mainbox {
+    background-color: hsl(216, 50%, 16%);
+    height: 430px;
+    width: 270px;
+    margin: 100px 550px;
+    border-radius: 10px;
+    box-shadow: 1px 25px 100px 10px rgb(0, 0, 34);
+}
+
+.mainpic {
+    height: 200px;
+    width: 220px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.upper {
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.head {
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+
+.mid1 {
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    margin-left: 20px;
+    margin-top: 12px;
+    opacity: 0.5;
+    margin-right: 11px;
+}
+
+.left {
+    display: flex;
+    color: hsl(158, 36%, 37%);
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Kanit', sans-serif;
+}
+.eth{
+    padding-left: 5px;
+}
+.right{
+    display: flex;
+    color: white;
+    opacity: 0.5;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 12px;
+    padding-left: 35px;
+}
+.cl{
+    padding-left: 3px;
+}
+.mid2{
+    display: flex;
+}
+.line{
+    border: solid hsl(215, 32%, 27%);
+    border-width: 1px;
+    margin-top: 10px;
+    width:75%;
+    margin: 20px 29px;
+}
+.lower{
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    margin-left: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.avatar{
+    height: 33px;
+    border: solid white;
+    border-radius: 1000px;
+    border-width: 1px;
+    margin-left: 15px;
+}
+.light{
+ opacity: 0.5;
+ padding-left: 5px;
+ padding-top: 7px;
+}
+.bold{
+opacity: 1;
+padding-left: 3px;
+padding-top: 7px;
+}
